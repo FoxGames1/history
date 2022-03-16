@@ -1,0 +1,107 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+a{color: #000;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.container{
+	margin: 0 auto;
+	width: 80%;
+}
+.zag, .zag_2, .zag_3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 1em;
+}
+.map{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 3em;
+}
+
+.table{
+	display: block;
+	padding-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.table_3{
+	display: block;
+	padding-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.text_1{
+	text-align: left;
+	padding-top: 2em;
+	width: 55%;
+	font-size: 30px;
+}
+.text_2{
+	position: absolute;
+	text-align: right;
+	width: 80%;
+	font-size: 27px;
+}
+.photo_1,.photo_2{
+	display: block;
+	padding-top: 2em;
+}
+.photo_1{
+	float: left;
+}
+.photo_2{
+	float: right;
+	margin-top: 4%;
+}
+.photo_3{
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 3em;
+}
+.zag_4{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 17em;
+}
